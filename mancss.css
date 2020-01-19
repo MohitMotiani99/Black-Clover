@@ -1,3 +1,32 @@
-div.:active{
-			font-family: cursive;
-		}
+a.sj:hover {
+			padding: 40px;
+}
+div.enter{
+			color: black;
+			font-family: sans-serif;
+			display: inline;
+			font-weight: bold;
+}
+div.enter:hover,img.icon:hover{
+			color: red;
+			cursor: pointer;
+}
+div.manga{
+	color: grey;
+	font-family: sans-serif;
+	position: absolute;
+	top: 400px;
+	left: 10px;
+	font-size: 20px;
+}
+div.manga:hover,div.manga2:hover{
+	color: red;
+}
+div.manga2{
+	color: black;
+	font-family: sans-serif;
+	position: absolute;
+	top: 430px;
+	left: 10px;
+	font-size: 20px;
+}
