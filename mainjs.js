@@ -26,3 +26,28 @@ function expand(){
 	}
 	count++;
 }
+function changeimage1(x){
+	x.src="rheart.png";
+	x.style.height="25px"
+	x.style.top="6px";
+	x.style.left="10px";
+	x.style.cursor="pointer";
+}
+function changeimage2(x){
+	x.src="pinkheart.svg";
+	x.style.height="40px";
+	x.style.width="25px";
+}
+function changeimage3(x){
+	
+	x.style.height="342px"
+	x.style.width="252px";
+	x.style.cursor="pointer";
+	x.transition="height 2s,width 2s";
+
+}
+function changeimage4(x){
+	
+	x.style.height="322px"
+	x.style.width="232px";
+}
