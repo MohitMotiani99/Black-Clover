@@ -19,8 +19,19 @@ div.manga{
 	left: 10px;
 	font-size: 20px;
 }
-div.manga:hover,div.manga2:hover{
+a.footer{
+	position: absolute;
+	left: 40px;
+	color: white;
+	font-size: 35px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	text-decoration: none;
+}
+div.manga:hover,div.manga2:hover,a.footer:hover{
+	transition: 0.3s;
 	color: red;
+	filter: brightness(100%);
 }
 div.manga2{
 	color: black;
