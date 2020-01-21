@@ -30,3 +30,13 @@ div.manga2{
 	left: 10px;
 	font-size: 20px;
 }
+div.recommend{
+	height: 320px;
+	width: 300px;
+	background-color: black;
+	position: absolute;
+	
+}
+div.recommend:hover{
+	background-color: red;
+}
